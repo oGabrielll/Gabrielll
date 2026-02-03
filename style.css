@@ -16,52 +16,53 @@ body {
 
 .container {
   background: #1e1e1e;
-  padding: 25px;
+  padding: 25px 30px;
   border-radius: 12px;
-  width: 320px;
+  width: 100%;
+  max-width: 400px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.6);
-  text-align: center;
 }
 
 h1 {
-  margin-bottom: 15px;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .input-area {
   display: flex;
   gap: 10px;
-  margin-bottom: 15px;
 }
 
 input {
   flex: 1;
-  padding: 8px;
+  padding: 10px;
   border-radius: 6px;
   border: none;
   outline: none;
 }
 
 button {
-  background: #00b4d8;
-  color: #000;
+  padding: 10px 15px;
   border: none;
-  padding: 8px 12px;
   border-radius: 6px;
-  cursor: pointer;
+  background: #00bcd4;
+  color: #000;
   font-weight: bold;
+  cursor: pointer;
 }
 
 button:hover {
-  background: #48cae4;
+  background: #00acc1;
 }
 
 ul {
   list-style: none;
+  margin-top: 20px;
 }
 
 li {
-  background: #2a2a2a;
-  padding: 8px;
+  background: #2b2b2b;
+  padding: 10px;
   border-radius: 6px;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
 }
