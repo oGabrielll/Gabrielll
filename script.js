@@ -1,17 +1,12 @@
-function adicionarTarefa() {
+function adicionar() {
   const input = document.getElementById("tarefa");
-  const texto = input.value;
+  const texto = input.value.trim();
 
-  if (texto === "") {
-    alert("Digite uma tarefa!");
-    return;
-  }
+  if (texto === "") return;
 
-  const lista = document.getElementById("lista");
   const li = document.createElement("li");
-
   li.textContent = texto;
 
-  lista.appendChild(li);
+  document.getElementById("lista").appendChild(li);
   input.value = "";
-} 
+}
